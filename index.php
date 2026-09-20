@@ -9,7 +9,7 @@
   <?php
   $nome="Render";
   ?>
-    <h1>Aulas de PHP com <?php=$nome;?> </h1>
+    <h1>Aulas de PHP com <?=$nome;?> </h1>
     <p>Selecione um arquivo abaixo ou acesse diretamente pela URL:</p>
     <ul>
         <li><a href="/aula1.php">aula1.php - Variáveis</a></li>
